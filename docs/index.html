@@ -1012,7 +1012,7 @@
                 class A(object):
                     def __repr__(self):
                         # type: () -> str
-                        return 'Rule({})'.format(self.full_name)
+                        return 'A({})'.format(self.full_name)
                     </code>
             </pre>
             <pre class="fragment" style="font-size: 0.37em">
@@ -1022,7 +1022,7 @@
                 class A(object):
                     def __repr__(self):
                         # type: () -> str
-                        res = 'Rule({})'.format(self.full_name)
+                        res = 'A({})'.format(self.full_name)
                         if sys.version_info > (3, 0):
                             # noinspection PyTypeChecker
                             return res
